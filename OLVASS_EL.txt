@@ -1,0 +1,17 @@
+CSILLA BEOSZTÁS – iPhone / iPad PWA
+
+Ez a Ben Beosztás alapján készített, különálló, üres változat. Ani funkciói nincsenek bekapcsolva.
+
+TELEPÍTÉS IPHONE-RA
+1. A Csilla_Beosztas_iOS mappa teljes tartalmát tedd egy HTTPS-es statikus tárhelyre (például saját webtárhelyed külön mappájába).
+2. iPhone-on SAFARIBAN nyisd meg a kapott HTTPS-címet.
+3. Megosztás → Hozzáadás a Főképernyőhöz (Add to Home Screen).
+4. Nyisd meg a Csilla ikont, egyszer online, hogy az offline fájlok betöltődjenek.
+5. Kapcsold ki a netet, próbáld ki; ezután rendszeresen használj Teljes JSON mentést.
+
+FONTOS: ZIP-et közvetlenül megnyitva nem települ PWA-ként. HTTPS kell az első telepítéshez.
+Az adatok az adott iPhone webalkalmazásának helyi tárhelyén vannak, nem szinkronizálódnak. A böngésző/tárhely törlése adatvesztést okozhat.
+A bérbeállítások nulláról indulnak; a felhasználó adja meg saját értékeit.
+Az eredeti Ben és Ani appok és mentések nem módosultak.
+A JSON exportban a profil 'csilla', hogy a Ben/Ani mentések véletlen importja ne keverje az adatokat.
+A szabadság és a bérszámítás szabályait használat előtt a saját munkarendhez kell igazítani.
